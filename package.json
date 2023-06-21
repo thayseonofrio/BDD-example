@@ -4,7 +4,7 @@
   "description": "simple bdd example with cucumber",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js"
+    "test": "cucumber-js --format progress-bar --format html:report.html"
   },
   "author": "Thayse Onofrio",
   "license": "ISC",
